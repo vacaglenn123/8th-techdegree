@@ -1,0 +1,78 @@
+body {
+  position: relative;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: medium;
+  margin: 20px 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(100, 100, 100, 0.4)
+}
+
+.modal {
+  width: 375px;
+  margin: 5% auto auto;
+  position: relative;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #778;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+
+.modal-close {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px 200px;   
+}
+
+.card {
+  border: 1px solid lightgrey;
+  padding: 0 5%;
+  margin: 0;
+  line-height: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.card:hover {
+  background: lightblue;
+}
+
+img {
+  border-radius: 50%;
+  height: 75%;
+  margin: auto;
+}
+
+.text-container {
+  padding-top: 20px;
+}
+
+.email, .address {
+  color: rgba(100, 100, 100, 0.4)
+}
+
+.name {
+  font-size: medium;
+}
